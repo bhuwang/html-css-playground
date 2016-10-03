@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+	</style>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		document.write("<h1>Heading from JavaScript</h1>");
+		function myLove(){
+			// if you don't put var here it will be a global variable instead of local one.
+			var girl = "Pratu";
+			document.write("I love "+girl)
+		}
+		myLove();
+		document.write("I will always love "+girl);
+
+	</script>
+</head>
+<body>
+<fieldset>
+	<legend>Fill up this form</legend>
+	Which game do you like?
+	<input type="checkbox" name="" id="basketball"><label for="basketball">Basketball</label>
+	<input type="checkbox" name="" id="football" checked><label for="football">Football</label>
+	<input type="checkbox" name="" id="volleyball"><label for="volleyball">Volleyball</label><br>
+	Gender:<input type="radio" name="gender" id="male"><label for="male">Male</label>
+	<input type="radio" name="gender" id="female"><label for="female">Female</label><br>
+	<label for="dob">DOB:</label>
+	<input type="date" name="" id="dob"><br>
+	<label for="firstName">First Name</label>
+	<input type="text" name="firstName" id="firstName"><br>
+	<label for="lastName">Last Name</label>
+	<input type="text" name="lastName" id="lastName">
+</fieldset>
+<hr>
+<!-- .mp3 .wav .ogg -->
+Justin Bieber - Baby ft. Ludacris
+<br><audio controls loop>
+	<source src="resource/baby.mp3">
+</audio>
+<hr>
+Video: Justin Bieber - Baby ft. Ludacris<br>
+<video controls loop>
+	<source src="resource/baby.mp4">
+</video>
+</body>
+</html>
