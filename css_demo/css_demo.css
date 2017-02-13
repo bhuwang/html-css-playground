@@ -1,0 +1,40 @@
+#idpara{
+	color: red;
+}
+
+.classpara{
+	color: green;
+}
+
+p.orangeclass{
+	color: orange;
+}
+
+p.pinkclass{
+	color: pink;
+}
+
+p[name]{
+	color: green;
+}
+
+p[name='brown']{
+	color: brown;
+}
+
+p[name='purple']{
+	color: purple;
+}
+/*start with bhuwan*/
+p[name^='bhuwan']{
+	color: red;
+}
+/*ends with bhuwan*/
+p[name$='bhuwan']{
+	color: blue;
+}
+
+/*contais with bhuwan*/
+p[name*='bhuwan']{
+	color: orange;
+}

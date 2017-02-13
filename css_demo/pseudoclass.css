@@ -1,0 +1,23 @@
+*{
+	color: black;
+}
+
+p:nth-child(even){
+	color: blue;
+}
+
+p:nth-child(odd){
+	color: orange;
+}
+
+p:nth-child(1){
+	color: green;
+}
+
+p:nth-child(3n+1){
+	color: red;
+}
+
+:not(.xyz){
+	color: black;
+}
