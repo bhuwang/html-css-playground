@@ -1,0 +1,80 @@
+body{
+	text-align: center;
+}
+
+.box{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 4px solid blue;
+	background: orange;
+	outline: 5px solid black;
+	/*keep x-axis same and scale y-axis by 1.5
+		transform: scale(1,1.5);
+		// if you put a negative value the box will be like mirrored
+		transform: scale(-1,1.5);
+	*/
+	transform: scale(1,1.5);
+}
+
+.text{
+	font: bold 30px Century Gothic;
+}
+
+.box1{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 4px solid blue;
+	background: orange;
+	outline: 5px solid black;
+	/*if you put a negative value the box will be like mirrored*/
+	transform: scale(-1,1.5);
+}
+
+.text1{
+	font: bold 30px Century Gothic;
+}
+
+.box2{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 4px solid blue;
+	background: orange;
+	outline: 5px solid black;
+	/*if you put a negative value the box will be like mirrored*/
+	transform: rotate(180deg);
+}
+
+.text2{
+	font: bold 30px Century Gothic;
+}
+
+.box3{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 4px solid blue;
+	background: orange;
+	outline: 5px solid black;
+	/*
+		accepts x, and  y values
+		transform: translate(200px) rotate(45deg) scale(1.3);
+
+	*/
+	
+}
+
+.text3{
+	font: bold 30px Century Gothic;
+}
+
